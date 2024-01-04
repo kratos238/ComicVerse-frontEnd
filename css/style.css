@@ -40,6 +40,42 @@ footer {
 .comic img {
     width: 100%;
     /* Makes the image take full width of the container */
-    height: auto;
+    height: 80%;
     /* Scales the height to maintain aspect ratio */
+}
+
+.comic h3 {
+    margin-top: 10px;
+}
+
+form {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.bttn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
 }

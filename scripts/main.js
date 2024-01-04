@@ -12,10 +12,16 @@ function loadComics() {
             comics.forEach(comic => {
                 const comicElement = document.createElement('div');
                 comicElement.className = 'comic';
-                comicElement.innerHTML = `
-          <img src="${comic.thumbnailUrl}" alt="${comic.title}">
-          <h3>${comic.title}</h3>
-          <!-- More comic details here -->
+        //         comicElement.innerHTML = `
+        //   <img src="${comic.thumbnailUrl}" alt="${comic.title}">
+        //   <h3>${comic.title}</h3>
+        //   <!-- More comic details here -->
+        // `;
+        comicElement.innerHTML = `
+            <a href="comic-detail.html?id=${comic.id}">
+                <img src="${comic.thumbnailUrl}" alt="${comic.title}">
+                <h3>${comic.title}</h3>
+            </a>
         `;
                 comicsContainer.appendChild(comicElement);
             });
