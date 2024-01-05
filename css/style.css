@@ -79,3 +79,10 @@ input[type="password"] {
 button:hover {
     background-color: #0056b3;
 }
+
+#favorites-container {
+    height: 400px;
+    /* Adjust as needed */
+    overflow-y: scroll;
+    /* Add more styling as required */
+}
