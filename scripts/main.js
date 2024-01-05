@@ -1,5 +1,3 @@
-// scripts/main.js
-
 window.onload = function () {
     loadComics();
 };
@@ -18,7 +16,7 @@ function loadComics() {
         //   <!-- More comic details here -->
         // `;
         comicElement.innerHTML = `
-            <a href="comic-detail.html?id=${comic.id}">
+            <a href="comic-details.html?id=${comic._id}">
                 <img src="${comic.thumbnailUrl}" alt="${comic.title}">
                 <h3>${comic.title}</h3>
             </a>
