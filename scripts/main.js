@@ -16,7 +16,7 @@ function loadComics() {
         //   <!-- More comic details here -->
         // `;
         comicElement.innerHTML = `
-            <a href="comic-details.html?id=${comic._id}">
+            <a href="/html/comic-details.html?id=${comic._id}">
                 <img src="${comic.thumbnailUrl}" alt="${comic.title}">
                 <h3>${comic.title}</h3>
             </a>
