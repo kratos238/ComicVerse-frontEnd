@@ -3,7 +3,7 @@ window.onload = function () {
 };
 
 function loadComics() {
-    fetch('http://localhost:3000/comics/')
+    fetch('https://git.heroku.com/comicverse-backend.git/comics/')
         .then(response => response.json())
         .then(comics => {
             const comicsContainer = document.getElementById('comics-container');
