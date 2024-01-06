@@ -10,6 +10,7 @@ document.getElementById('signup-form').addEventListener('submit', function (e) {
     })
         .then(function (response) {
             console.log(response);
+            window.location.href = 'login.html'
             
         })
         .catch(function (error) {
