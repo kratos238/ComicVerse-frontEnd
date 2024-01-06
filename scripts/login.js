@@ -4,7 +4,7 @@ document.getElementById('login-form').addEventListener('submit', function (e) {
     const email = document.getElementById('login-email').value;
     const password = document.getElementById('login-password').value;
 
-    axios.post('http://localhost:3000/auth/login', {
+    axios.post('https://comicverse-backend-2f98a9ef6ba2.herokuapp.com/auth/login', {
         email: email,
         password: password
     })

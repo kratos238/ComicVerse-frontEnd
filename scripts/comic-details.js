@@ -10,7 +10,7 @@ window.onload = function () {
 };
 
 function fetchComicDetails(comicId) {
-    fetch(`http://localhost:3000/comics/${comicId}`)
+    fetch(`https://comicverse-backend-2f98a9ef6ba2.herokuapp.com/comics/${comicId}`)
         .then(response => response.json())
         .then(comic => {
             console.log('Comic data:', comic);
@@ -38,7 +38,7 @@ addToFavoritesBtn.addEventListener('click', function () {
 
 
 function addComicToFavorites(comicId, token) {
-    axios.put('http://localhost:3000/auth/favorites', { comicId: comicId }, {
+    axios.put('https://comicverse-backend-2f98a9ef6ba2.herokuapp.com/auth/favorites', { comicId: comicId }, {
         headers: { 'Authorization': `Bearer ${token}` }
     })
         .then(response => {

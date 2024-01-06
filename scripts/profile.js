@@ -4,7 +4,7 @@ window.onload = function () {
         window.location.href = 'login.html'; // Redirect to login if no token
     }
 
-    axios.get('http://localhost:3000/auth/favorites', {
+    axios.get('https://comicverse-backend-2f98a9ef6ba2.herokuapp.com/auth/favorites', {
         headers: {
             'Authorization': `Bearer ${token}`
         }
@@ -43,7 +43,7 @@ function deleteFavorite(comicId) {
         return;
     }
 
-    axios.delete(`http://localhost:3000/auth/favorites/${comicId}`, {
+    axios.delete(`https://comicverse-backend-2f98a9ef6ba2.herokuapp.com/auth/favorites/${comicId}`, {
         headers: { 'Authorization': `Bearer ${token}` }
     })
         .then(function (response) {
