@@ -26,11 +26,13 @@ function displayFavorites(favorites) {
         const comicElement = document.createElement('div');
         comicElement.className = 'favorite-comic';
         comicElement.innerHTML = `
+        <a href="/html/comic-details.html?id=${comic._id}">
             <img src="${comic.thumbnailUrl}" alt="${comic.title}">
             <h3>${comic.title}</h3>
             <p>${comic.description || 'No description available'}</p>
             <button onclick="deleteFavorite('${comic._id}')">Delete</button>
             <!-- Add more details as per your requirement -->
+            </a>
         `;
         container.appendChild(comicElement);
     });

@@ -1,5 +1,9 @@
 body {
     font-family: Arial, sans-serif;
+    background-image: url('/assets/vands.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 header,
@@ -46,6 +50,7 @@ footer {
 
 .comic h3 {
     margin-top: 10px;
+    background-color: yellow;
 }
 
 form {
@@ -85,6 +90,7 @@ button:hover {
     /* Adjust as needed */
     overflow-y: scroll;
     /* Add more styling as required */
+    display: flex;
 }
 
 #comic-detail-container {
@@ -122,7 +128,8 @@ nav ul li a:hover {
     background-color: #007bff;
 }
 
-button, .bttn {
+button,
+.bttn {
     padding: 10px 15px;
     background-color: #007bff;
     color: white;
@@ -132,6 +139,27 @@ button, .bttn {
     transition: background-color 0.3s ease;
 }
 
-button:hover, .bttn:hover {
+button:hover,
+.bttn:hover {
     background-color: #0056b3;
+}
+
+.favorite-comic {
+    width: 200px;
+    /* Fixed width for each comic */
+    height: 300px;
+    /* Fixed height for each comic */
+    margin: 10px;
+    border: 1px solid #ccc;
+    /* Optional: adds a border */
+    overflow: hidden;
+    /* Ensures the content doesn't overflow the container */
+    text-align: center;
+}
+
+.favorite-comic img {
+    width: 100%;
+    /* Makes the image take full width of the container */
+    height: 80%;
+    /* Scales the height to maintain aspect ratio */
 }
