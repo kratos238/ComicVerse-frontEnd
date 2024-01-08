@@ -23,6 +23,13 @@ Technologies Used:
 - Axios for API requests
 - Dotenv for environment variable management
 
+## Features
+- Signup
+- Login
+- Profile
+- Favorites
+- Delete from favorites
+
 ## MVP
 - As a user , I would like to see , add , and modify my collection 
 - As a user , I would like to see a profile page to house my collections
