@@ -5,6 +5,7 @@ ComicVerse is a dynamic web application for comic enthusiasts. Leveraging the Ma
 ## Getting Started
 Deployed App: ComicVerse Live : https://comic-verse-front-6s9m3z3jo-desouzas-projects.vercel.app
 Trello Board: Project Planning : https://trello.com/b/DrFYnMt1/comicverse
+
 Attributions:
 - Marvel Comics API: Marvel
 - Node.js: Node.js
@@ -12,6 +13,7 @@ Attributions:
 - Express.js: Express
 - Mongoose: Mongoose
 - Dotenv: Dotenv
+  
 Technologies Used:
 - JavaScript
 - Node.js
