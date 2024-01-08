@@ -30,9 +30,9 @@ Technologies Used:
 - As a user , I would like
 
 
-# Next Steps
--Future enhancements planned for ComicVerse include:
--Social Sharing: Allowing users to share their favorite comics on social media.
--Advanced Search: Adding filters for year, creator, and character-based searches.
--Personal Collections: Users can create and manage lists of their favorite comics.
--Community Features: Introducing forums or comment sections for discussions.
+## Next Steps
+- Future enhancements planned for ComicVerse include:
+- Social Sharing: Allowing users to share their favorite comics on social media.
+- Advanced Search: Adding filters for year, creator, and character-based searches.
+- Personal Collections: Users can create and manage lists of their favorite comics.
+- Community Features: Introducing forums or comment sections for discussions.
